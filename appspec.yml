@@ -5,14 +5,7 @@ files:
     destination: /
 hooks:
   BeforeInstall:
-      timeout: 300
-      runas: root
   AfterInstall:
-      timeout: 300
-      runas: root
   ApplicationStart:
-      timeout: 300
-      runas: root
   ApplicationStop:
-      timeout: 300
-      runas: root
+
